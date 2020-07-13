@@ -136,6 +136,7 @@ fubectlInstall () {
         info 'fubectl.source already exists'
     else
         echo "Now installing fubectl..."
+        mkdir -p "$HOME/bin"
         curl -o "$HOME/bin/fubectl.source" -LO https://rawgit.com/kubermatic/fubectl/master/fubectl.source && success "fubectl placed in $HOME/bin"
     fi
 }
