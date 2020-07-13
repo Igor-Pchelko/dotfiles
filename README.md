@@ -4,7 +4,7 @@
 
 Run the following to configure macOS from scratch...
 ```
-bash <(curl -fsSL https://raw.githubusercontent.com/Igor-Pchelko/dotfiles/configure.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/Igor-Pchelko/dotfiles/master/configure.sh)
 ```
 
 It should go without saying, you should never run a script on your system without reading it to understand what changes it will make to your system. My scripts and code samples are no exception to the rule.
